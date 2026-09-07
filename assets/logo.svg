@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .logo-text { font-family: 'Playfair Display', 'Bodoni MT', 'Didot', serif; font-style: italic; fill: #ffffff; }
+      .tagline-text { font-family: 'Inter', 'Montserrat', sans-serif; font-size: 11px; letter-spacing: 4px; fill: #ffffff; text-transform: uppercase; }
+      .stroke-line { stroke: #ffffff; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Outer Decorative Circle -->
+  <circle cx="250" cy="180" r="120" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="720" stroke-dashoffset="0"/>
+  
+  <!-- Sparkles / Stars -->
+  <path d="M 170 175 Q 170 160 155 160 Q 170 160 170 145 Q 170 160 185 160 Q 170 160 170 175 Z" fill="#ffffff"/>
+  <path d="M 330 175 Q 330 160 315 160 Q 330 160 330 145 Q 330 160 345 160 Q 330 160 330 175 Z" fill="#ffffff"/>
+  
+  <!-- Silhouette of Woman with Wide Hat -->
+  <!-- Wide Brim Hat -->
+  <path d="M 160 115 C 200 85, 300 85, 340 115 C 310 100, 280 102, 250 105 C 220 102, 190 100, 160 115 Z" fill="#ffffff"/>
+  <path d="M 215 105 C 225 80, 275 80, 285 105 Z" fill="#ffffff"/>
+  
+  <!-- Neck & Face Contour -->
+  <path d="M 240 106 C 248 115, 252 125, 248 135 C 255 138, 258 148, 250 160 C 245 168, 238 178, 245 190 Z" fill="#ffffff"/>
+  
+  <!-- Flowing Zebra Patterned Gown -->
+  <g fill="#ffffff">
+    <!-- Shoulder & Bodice Stripes -->
+    <path d="M 235 185 Q 260 190 280 210 Q 240 220 225 240 Q 255 240 270 260 Q 230 270 215 300 Q 250 290 275 320 Q 210 330 190 380 Q 215 350 250 340 Q 280 330 310 310 Q 275 285 270 250 Q 290 230 300 200 Q 280 180 250 175 Z"/>
+    <path d="M 200 280 Q 220 310 210 360 Q 195 330 200 280 Z"/>
+    <path d="M 285 240 Q 310 270 325 310 Q 300 290 285 240 Z"/>
+  </g>
+  
+  <!-- Brand Name Typography -->
+  <text x="250" y="420" text-anchor="middle" class="logo-text" font-size="58" font-weight="bold">Lu Zeebra</text>
+  
+  <!-- Subtitle Tagline & Divider Lines -->
+  <line x1="50" y1="455" x2="130" y2="455" class="stroke-line" />
+  <text x="250" y="459" text-anchor="middle" class="tagline-text">FASHION BEYOND BLACK AND WHITE</text>
+  <line x1="370" y1="455" x2="450" y2="455" class="stroke-line" />
+</svg>
